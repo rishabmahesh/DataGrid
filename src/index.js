@@ -17,9 +17,9 @@ const darkTheme = createTheme({
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <ChakraProvider theme={customTheme}>
-    <App />
-    {/* <ThemeProvider theme={darkTheme}>
+    {/* <App /> */}
+    <ThemeProvider theme={darkTheme}>
       <App />
-    </ThemeProvider> */}
+    </ThemeProvider>
   </ChakraProvider>
 );
